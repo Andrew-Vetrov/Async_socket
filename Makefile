@@ -1,7 +1,7 @@
-all: 31server 31client
+all: server client
 
-31server: 31server.c
-	cc 31server.c -v -lsocket -o 31server
+server: server.c
+	cc server.c -v -lsocket -o server
 
-31client: 31client.c
-	cc 31client.c -v -lsocket -o 31client
+client: client.c
+	cc client.c -v -lsocket -o client
